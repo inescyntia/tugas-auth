@@ -7,7 +7,7 @@ const session = require('express-session')
 const bcrypt = require('bcrypt')
 // --- 
 const path = require('path')
-const port = 8000;
+const port = process.env.PORT || 3000;
 
 const { 
   rootRequest, 
